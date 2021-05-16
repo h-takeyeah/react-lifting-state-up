@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=bundle.js"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.5",
+    "@types/react-dom": "17.0.5",
+    "esbuild": "0.11.22"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
